@@ -3,7 +3,7 @@ authors = ["you"]
 description = "A Tauri App"
 edition = "2021"
 name = "studymaster"
-version = "0.0.3"
+version = "0.0.4"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
