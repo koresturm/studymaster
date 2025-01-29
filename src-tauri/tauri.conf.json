@@ -36,7 +36,7 @@
   },
   "plugins": {
     "updater": {
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IHJzaWduIGVuY3J5cHRlZCBzZWNyZXQga2V5ClJXUlRZMEl5MzZiY3JtRnB0OTA3bVo2MVgzU3phOUs0M3ZrZGxmb2tSeEx3WDdrWEFYVUFBQkFBQUFBQUFBQUFBQUlBQUFBQStrc1ZWRFB0azc3dHkrVDl0ekJiS1pQYS9Bb3c3Z3JpZUdiOTdaV0JKZUM0TzFveVFPOW4wamFRTmZqMTI1ZDJLSXJIaVROMTJKc1k2ZExIRGRPM1QwcjFZT1lWc0NWd0FGWlZwVWdKWjZYaGFjNy8wZlBHN3lPd3cxSlJ3QkwxSTk1bUdYdmRpNFk9Cg==",
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDg3Rjk1MDFDNDY0OURERQpSV1RlbldURUFaVi9DQ0VYRUNPT1lCZVZoTkRUZHN6dWFxZThLV2xuT084TFQ2VEdjNitEZU83Two=",
       "endpoints": [
         "https://github.com/koresturm/studymaster/releases/latest/download/latest.json"
       ]

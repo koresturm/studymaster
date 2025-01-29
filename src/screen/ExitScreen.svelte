@@ -4,6 +4,8 @@
   import Screen from '@components/navigation/Screen.svelte'
   import { pop_screen } from '@components/navigation/ScreenManager.svelte'
   import StatusBar from '@components/StatusBar.svelte'
+
+  import { app } from '@tauri-apps/api'
 </script>
 
 <Screen
@@ -28,7 +30,7 @@
             layout_item={{
               id: '0',
               events: {
-                select: () => window.api.quit_app(),
+                select: () => {},
                 right: () => change_active_item('1'),
                 left: () => change_active_item('1')
               }
