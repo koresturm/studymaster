@@ -4,8 +4,6 @@
   import Screen from '@components/navigation/Screen.svelte'
   import { pop_screen } from '@components/navigation/ScreenManager.svelte'
   import StatusBar from '@components/StatusBar.svelte'
-
-  import { app } from '@tauri-apps/api'
 </script>
 
 <Screen
