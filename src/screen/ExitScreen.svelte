@@ -4,6 +4,10 @@
   import Screen from '@components/navigation/Screen.svelte'
   import { pop_screen } from '@components/navigation/ScreenManager.svelte'
   import StatusBar from '@components/StatusBar.svelte'
+  import { getCurrentWindow } from '@tauri-apps/api/window';
+
+
+  const exit = () => getCurrentWindow().close()
 </script>
 
 <Screen
@@ -28,7 +32,7 @@
             layout_item={{
               id: '0',
               events: {
-                select: () => {},
+                select: exit,
                 right: () => change_active_item('1'),
                 left: () => change_active_item('1')
               }
