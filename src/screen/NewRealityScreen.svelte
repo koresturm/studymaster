@@ -28,8 +28,6 @@
 
     loading = 'loading'
 
-    // questions = await window.api.extract_questions(file.path , number_of_questions , difficulty_options[difficulty_index] as any)
-
     loading = 'success'
   }
 </script>

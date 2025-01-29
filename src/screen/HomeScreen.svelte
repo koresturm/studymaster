@@ -20,10 +20,10 @@
       select: () => push_screen('select reality')
     },
     {
-      title: 'Settings',
-      select: () => push_screen('settings'),
-      image: './assets/images/settings.jpg',
-      description: 'App settings'
+      title: 'Menu',
+      select: () => push_screen('menu'),
+      image: './assets/images/menu.jpg',
+      description: 'Settings, updates, and other options',
     },
     {
       title: 'Exit',
